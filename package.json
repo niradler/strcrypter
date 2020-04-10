@@ -1,0 +1,16 @@
+{
+  "name": "strcrypter",
+  "version": "0.0.1",
+  "description": "Encrypt and decrypt strings easily, no dependencies, using crypto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "crypto",
+    "encrypt",
+    "decrypt"
+  ],
+  "author": "nir adler",
+  "license": "MIT"
+}
