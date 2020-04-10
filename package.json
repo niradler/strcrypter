@@ -12,5 +12,13 @@
     "decrypt"
   ],
   "author": "nir adler",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/strcrypter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/strcrypter/issues"
+  },
+  "homepage": "https://github.com/niradler/strcrypter#readme"
 }
