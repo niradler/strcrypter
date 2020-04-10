@@ -1,6 +1,6 @@
 {
   "name": "strcrypter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Encrypt and decrypt strings easily, no dependencies, using crypto.",
   "main": "index.js",
   "scripts": {

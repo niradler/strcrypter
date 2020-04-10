@@ -8,7 +8,7 @@ class Crypter {
   constructor(opt) {
     if (!opt.key) throw new Error("missing encryption key.");
     this.algorithm = opt.algorithm || ALGORITHM;
-    this.key = this.hash(opt.key);
+    this.key = Crypter.hash(opt.key);
     this.iv = opt.iv || Crypter.createKey(IV_LENGTH);
   }
 
@@ -46,7 +46,7 @@ class Crypter {
     };
   }
 
-  hash(key) {
+  static hash(key) {
     return crypto.createHash("md5").update(key).digest("hex");
   }
 
